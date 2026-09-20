@@ -11,19 +11,19 @@ from logging.handlers import RotatingFileHandler
 
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8649646917:AAFTXXigd3_fcAA59M83WkzqzVBRdrYWKhI")
+APP_ID = int(os.environ.get("APP_ID", "31217851")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "1cdb4291cf1004a96ddab4da67da02a7") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "TDBotDev") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003931692536")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "FlashAizen") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "2022914939")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://godaizen2:Naruto@cluster0.18ryq8q.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "godaizen2")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/TDBotDev")
@@ -34,11 +34,11 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "538ad171834fbe3d9513617a06a07ecca629d804")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/Example_videos1/23")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "7c577d3798f265bede07aafebd4d36aa763499dd")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/Aizen_ExampleVid")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://files.catbox.moe/qzzox8.png")
 #--------------------------------------------
 
 #--------------------------------------------
@@ -73,7 +73,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /delreq :</b> Rᴇᴍᴏᴠᴇᴅ ʟᴇғᴛᴏᴠᴇʀ ɴᴏɴ-ʀᴇǫᴜᴇsᴛ ᴜsᴇʀs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @TDBotDev</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @FlashxAizen</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
@@ -84,10 +84,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "@TDBotDev")
-UPI_ID = os.environ.get("UPI_ID", "@TDBotDev")
-QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "https://t.me/TDBotDev")
+OWNER_TAG = os.environ.get("OWNER_TAG", "@FlashxAizen")
+UPI_ID = os.environ.get("UPI_ID", "dinakarff787@okaxis")
+QR_PIC = os.environ.get("QR_PIC", "https://files.catbox.moe/gerc7g.png")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "https://t.me/FlashxAizen")
 #--------------------------------------------
 #Time and its price
 #7 Days
